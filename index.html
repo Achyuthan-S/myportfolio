@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e296fc494b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Carter+One&family=Concert+One&family=Kanit:wght@500&family=Lobster&family=Lobster+Two:ital@1&family=Londrina+Solid:wght@100&family=Mirza:wght@600&family=Sigmar&family=Vina+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=League+Spartan:wght@600&family=Montserrat&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@600&family=Titillium+Web&family=Ysabeau+Infant:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home </a></li>
+                    <li><a href="#know-me">Know me</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Interests</a></li>
+                    <li><a href="#social-cards">Follow Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fas fa-times" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="header-text">
+                <h1 class="title">
+                    Hey I'm Achyuthan<br> from India ' passionate about
+                    <div class="title__alternate">
+                        <span style="--d: 0s">ui/ux design.</span>
+                        <span style="--d: 3s">artificial intelligence.</span>
+                        <span style="--d: 6s">web development.</span>
+                    </div>
+                </h1>
+                <!-- <p>Web Developer</p>
+                <h1>Hey, <span>Achyuthan</span><br> here from India </h1> -->
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------- -->
+    <!-- -------------PhotoGallery--------------- -->
+    <div id="know-me">
+    <section class="container">
+        <h2 class="title">
+            <span class="primary"> Know Me </span>
+            <span class="secondary">
+                <!-- Tjhhjhk -->
+            </span>
+        </h2>
+        <div class="gallery-wrapper">
+            <figure class="gallery-item">
+                <img src="vitpic1.png" alt="" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">VIT Vellore</h2>
+                    <span class="role">My University</span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="bangalorepic2.png" alt="" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">Bangalore</h2>
+                    <span class="role">My City</span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="csmyskill.png" alt="" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">Computer Science</h2>
+                    <span class="role">My Technical Skill</span>
+                </figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img src="pic4hobby.png" alt="" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">Sketching</h2>
+                    <span class="role">My Hobby</span>
+                </figcaption>
+            </figure>
+            <!-- <figure class="gallery-item">
+                <img src="./images/portrait-female-3.jpg" alt="" class="item-image" />
+                <figcaption class="item-description">
+                    <h2 class="name">dontkn</h2>
+                    <span class="role">sdfghj</span>
+                </figcaption>
+            </figure> -->
+        </div>
+    </section>
+</div>
+    <!-- ---------ABOUT-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                
+                <img src="mypic.png" alt=" ">
+                </div>
+                <div class="about-col-3">
+                      <!-- <h1 class="sub title">About Me</h1> -->
+                      <div class="about-col-2">
+                      <p>As a driven computer science student with a passion for Al and Web 3, I bring<br>
+                        strong web development skills to the table. My experience includes proficiency in<br>
+                        HTML, CSS, and JavaScript, as well as a working knowledge of frameworks such as<br>
+                        React and Node.js. I am eager to contribute to a team and apply my skills towards<br>
+                        innovative projects in these exciting fields. </p>
+                    </div>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links active-link" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul><li><span>Web Development</span><br>HTML5<br>CSS<br>MERN Stack<br>Docker<br>Kubernetes</li>
+                        <ul><li><span>Coding Languages</span><br>C programming<br>C++<br>Java<br>Python<br>Go-lang</li>
+                        <ul><li><span>DSA</span><br>C programming<br>C++</li>
+                            
+                        </ul>
+                      </div>
+                      <!-- <div class="tab-contents">
+                        <ul><li><span>2022</span><br>National Public School at Bangalore</li>
+                         <ul><li><span>2019-2021</span><br>Bangalore International Academy</li>
+                        <ul><li><span>2021</span><br>Btech in Computer Science<br> from VIT Vellore</li>
+                        
+                            
+                        </ul>
+                      </div>  -->
+                      <div class="tab-contents active-tab" id="education">
+                        <ul><li><span>2019</span><br>National Public School at Bangalore</li>
+                        <ul><li><span>2019-2021</span><br>Bangalore International Academy</li>
+                        <ul><li><span>2021</span><br>Btech in Computer Science<br> from VIT Vellore</li>
+                        
+                            
+                        </ul>
+                      </div>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------services---------- -->
+
+<!-- <div id="services">
+    <div class="container">
+        <h1 class="sub title">My Services</h1>
+    </div>
+</div> -->
+
+<!-- ------------Portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title1">My Interests</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image2.png" alt="">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>This skill deals with building and designing of websites.</p>
+                    <a href="https://www.geeksforgeeks.org/web-development/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image1.png" alt="">
+                <div class="layer">
+                    <h3>UI/UX</h3>
+                    <p>This skill deals with mostly designing of websites or apps.</p>
+                    <a href="https://www.simplilearn.com/what-is-ui-ux-design-and-difference-between-ux-and-ui-article"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image3.jpg" alt="">
+                <div class="layer">
+                    <h3>Web 3.0 </h3>
+                    <p>This is the next generation block-chain web development. </p>
+                    <a href="https://www.geeksforgeeks.org/decentralized-web-web3/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+        <!-- <div class="wrapper">
+        <input type="checkbox" id="btnBox">
+        <ul>
+            <li style="background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhatrabbits.com%2Fen%2Frandom-image%2F&psig=AOvVaw0RrK2KbvhSfKBg5rzxzqni&ust=1682929443208000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJCUl_CW0f4CFQAAAAAdAAAAABAE)"></li>
+            <li style="background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhatrabbits.com%2Fen%2Frandom-image%2F&psig=AOvVaw0RrK2KbvhSfKBg5rzxzqni&ust=1682929443208000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJCUl_CW0f4CFQAAAAAdAAAAABAE)"></li>
+            <li style="background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhatrabbits.com%2Fen%2Frandom-image%2F&psig=AOvVaw0RrK2KbvhSfKBg5rzxzqni&ust=1682929443208000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJCUl_CW0f4CFQAAAAAdAAAAABAE)"></li>
+            <li style="background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhatrabbits.com%2Fen%2Frandom-image%2F&psig=AOvVaw0RrK2KbvhSfKBg5rzxzqni&ust=1682929443208000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJCUl_CW0f4CFQAAAAAdAAAAABAE)"></li>
+        </ul>
+        <label for="btnBox" class="btn-area">
+            <span class="btn1">LOAD MORE </span>
+            <span class="btn2">LOAD LESS </span>
+        </label>
+
+    </div> -->
+
+        
+    </div>
+</div>
+<!-- ---------------Follow-Me------------ -->
+<div id="social-cards">
+<div class="container">
+    <div class="cards">
+        
+        <div class="card twitter">
+            <h2 class="card-title-large">Twitter</h2>
+            <h3 class="card-title-small">Twitter</h3>
+            <p class="card-description">
+                Follow me on Twitter to know more about me..
+            </p>
+            <a href="https://twitter.com/@achyuthan_s" class="card-cta1">&rarr;</a>
+        </div>
+        <div class="card instagram">
+            <h2 class="card-title-large">Instagram</h2>
+            <h3 class="card-title-small">Instagram</h3>
+            <p class="card-description">
+                Follow me on Insta to know more about me..
+            </p>
+            <a href="https://www.instagram.com/achyuthan.s" class="card-cta1">&rarr;</a>
+        </div>
+
+        <div class="card facebook">
+            <h2 class="card-title-large">Facebook</h2>
+            <h3 class="card-title-small">Facebook</h3>
+            <p class="card-description">
+                Follow me on Facebook to know more about me..
+            </p>
+            <a href="https://www.facebook.com/" class="card-cta1">&rarr;</a>
+        </div>
+
+        <div class="card LinkedIn">
+            <h2 class="card-title-large">LinkedIn</h2>
+            <h3 class="card-title-small">LinkedIn</h3>
+            <p class="card-description">
+                Follow me on LinkedIn to know more about me..
+            </p>
+            <a href="https://www.linkedin.com/in/achyuthan-sivasankar-b0814b221/" class="card-cta1">&rarr;</a>
+        </div>
+    </div>
+</div>
+</div>
+<!-- ----------------------------------- -->
+
+<!-- ------------------contact-me----------------- -->
+<div id="contact">
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><font color="#1A120B"> Contact Me</font></h1>
+                <p><i class="fa-solid fa-paper-plane"></i><font color="black">achyuthan.sivasankar@gmail.com</font></p>
+                <p><i class="fa-solid fa-phone"></i><font color="black">+91 9845341031</font></p>
+                 <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/9845341031"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://github.com/Achyuthan-S"><i class="fab fa-github"></i></a>
+                    
+                 </div>
+                 <!-- <a href="" class="button">Download CV</a> -->
+                 
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>       
+</body>
+</html>
